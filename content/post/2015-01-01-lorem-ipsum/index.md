@@ -32,7 +32,7 @@ output:
   - More stable when categories are unevenly distributed (Gwet, 2008)
   - Higher interpretability when raters show consistent central tendency
 - **Limitations**:
-  - Less commonly reported in social sciences compared to KA
+  - Suffers from the same limitations as the KA
   - May overestimate reliability in certain edge cases
 
 ## Practical Example: High Agreement Scenario
