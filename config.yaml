@@ -1,4 +1,4 @@
-baseurl: https://cph-rs-main.github.io/statistics_knowledge_booth/
+baseurl: /statistics_knowledge_booth/
 languageCode: en-US
 title: A Hugo website
 theme: hugo-lithium
