@@ -40,3 +40,5 @@ output:
 
 When raters distribute responses evenly across categories (no category &gt;35%), both KA and AC2 agree on high reliability.
 
+## References
+
