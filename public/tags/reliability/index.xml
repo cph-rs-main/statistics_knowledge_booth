@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reliability on A Hugo website</title>
+    <link>/tags/reliability/</link>
+    <description>Recent content in Reliability on A Hugo website</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 18 Feb 2026 11:22:00 -0700</lastBuildDate>
+    <atom:link href="/tags/reliability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interrater Reliability Part II</title>
+      <link>/2026/02/18/choosing-irr/</link>
+      <pubDate>Wed, 18 Feb 2026 11:22:00 -0700</pubDate>
+      <guid>/2026/02/18/choosing-irr/</guid>
+      <description>&lt;h1 id=&#34;interrater-reliablity&#34;&gt;Interrater Reliablity&lt;/h1&gt;&#xA;&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;practical-example-high-agreement-scenario&#34;&gt;Practical Example: High Agreement Scenario&lt;/h2&gt;&#xA;&lt;p&gt;When raters distribute responses evenly across categories (no category &amp;gt;35%), both KA and AC2 agree on high reliability.&lt;/p&gt;&#xA;&lt;h2 id=&#34;testing-the-code&#34;&gt;Testing the Code&lt;/h2&gt;&#xA;&lt;h3 id=&#34;installing-proper-libraries&#34;&gt;Installing proper libraries&lt;/h3&gt;&#xA;&lt;img src=&#34;/2026/02/18/choosing-irr/index_files/figure-html/unnamed-chunk-1-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; /&gt;&#xD;&#xA;&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;&#xA;&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+---
+title: "Test Post"
+author: "Sebastian Cheong"
+date: "2026-02-20T12:00:00-07:00"
+draft: false
+---
+
+This is a test post.
+
+## R Code Example
+
+```{r}
+# Simple test
+x <- 1:10
+mean(x)
+```

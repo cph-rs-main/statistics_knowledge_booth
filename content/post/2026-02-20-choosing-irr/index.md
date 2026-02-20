@@ -7,9 +7,7 @@ categories: ["R"]
 tags: ["interrater", "reliability", "R code"]
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE)
-```
+
 
 # Interrater Reliablity 
 
@@ -21,33 +19,40 @@ When raters distribute responses evenly across categories (no category &gt;35%),
 
 ## Testing the Code
 ### Installing proper libraries
-```{r echo=FALSE}
-library(ggplot2)
-ggplot(Orange, aes(x = age, 
-                   y = circumference, 
-                   color = Tree)) +
-  geom_point() +
-  geom_line() +
-  guides(color = "none") +
-  theme_bw()
-```
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" alt="" width="672" />
 
 
 ## References
 
 You can embed an R code chunk like this:
 
-```{r cars}
+
+``` r
 summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
 fit <- lm(dist ~ speed, data = cars)
 fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932
 ```
 
 # Including Plots
 
-You can also embed plots. See Figure \@ref(fig:pie) for example:
+You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:
 
-```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
+
+``` r
 par(mar = c(0, 1, 0, 1))
 pie(
   c(280, 60, 20),
@@ -56,3 +61,8 @@ pie(
   init.angle = -50, border = NA
 )
 ```
+
+<div class="figure">
+<img src="{{< blogdown/postref >}}index_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption"><span id="fig:pie"></span>Figure 1: A fancy pie chart.</p>
+</div>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.155.3">
+
+
+<title>Choosing Interrater Reliability Methods - A Hugo website</title>
+<meta property="og:title" content="Choosing Interrater Reliability Methods - A Hugo website">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/rstudio/blogdown">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/rstudio">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Choosing Interrater Reliability Methods</h1>
+
+    
+    <span class="article-date">2026-02-09</span>
+    
+
+    <div class="article-content">
+      
+      <h1 id="choosing-interrater-reliability-irr-methods">Choosing Interrater Reliability (IRR) Methods</h1>
+<p><strong>Interrater reliability</strong> Best practices and statistical methodologies for IRR</p>
+<h2 id="krippendorffs-alpha-ka">Krippendorff&rsquo;s Alpha (KA)</h2>
+<ul>
+<li><strong>Use Case</strong>: Suitable for any number of raters, ordinal, interval, ratio, or nominal data.</li>
+<li><strong>Strengths</strong>:
+<ul>
+<li>Handles missing data.</li>
+<li>Works with small sample sizes.</li>
+<li>Flexible for different data types (Geijer et al., 2025)</li>
+</ul>
+</li>
+<li><strong>Limitations</strong>:
+<ul>
+<li><strong>Sensitive to marginal distributions</strong>: When raters agree on a prevalent category (e.g., 90% of ratings are &ldquo;3&rdquo;), KA assumes this is due to chance and penalizes the agreement.</li>
+<li>This creates the &ldquo;Kappa paradox&rdquo; where high observed agreement yields low reliability scores when categories are skewed.</li>
+<li>Tends to perform better with smaller sample sizes (Zhao et al., 2012)</li>
+</ul>
+</li>
+</ul>
+<h2 id="gwets-ac2">Gwet&rsquo;s AC2</h2>
+<ul>
+<li><strong>Use Case</strong>: Alternative to KA for ordinal data with multiple raters.</li>
+<li><strong>Strengths</strong>:
+<ul>
+<li><strong>Robust to skewed distributions</strong>: Does not assume independence between raters.</li>
+<li>More stable when categories are unevenly distributed (Gwet, 2008)</li>
+<li>Higher interpretability when raters show consistent central tendency</li>
+</ul>
+</li>
+<li><strong>Limitations</strong>:
+<ul>
+<li>Suffers from the same limitations as the KA</li>
+<li>May overestimate reliability in certain edge cases</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+
