@@ -1,16 +1,27 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
-date: 2020-12-01T21:13:14-05:00
+title: "Interrater Reliability Part II"
+author: "Sebastian Cheong"
+date: 2026-02-20T09:40:00-05:00
 categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+tags: ["interrater", "reliability", "R code"]
 ---
 
 
 
-# R Markdown
+# Interrater Reliablity 
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+## Practical Example: High Agreement Scenario
+
+When raters distribute responses evenly across categories (no category &gt;35%), both KA and AC2 agree on high reliability.
+
+## Testing the Code
+### Installing proper libraries
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" alt="" width="672" />
+
+
+## References
 
 You can embed an R code chunk like this:
 

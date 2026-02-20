@@ -36,5 +36,21 @@ output:
   - Suffers from the same limitations as the KA
   - May overestimate reliability in certain edge cases
 
+## Practical Example: High Agreement Scenario
 
+When raters distribute responses evenly across categories (no category &gt;35%), both KA and AC2 agree on high reliability.
+
+## Testing the Code
+### Installing proper libraries
+```{r echo=FALSE}
+library(ggplot2)
+ggplot(Orange, aes(x = age, 
+                   y = circumference, 
+                   color = Tree)) +
+  geom_point() +
+  geom_line() +
+  guides(color = "none") +
+  theme_bw()
+```
+## References
 
