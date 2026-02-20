@@ -1,7 +1,7 @@
 ---
 title: "Test Post"
 author: "Sebastian Cheong"
-date: "2026-02-20T12:00:00-07:00"
+date: "2026-02-19"
 draft: false
 ---
 

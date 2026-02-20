@@ -6,8 +6,15 @@
     <description>Recent content in Posts on A Hugo website</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 18 Feb 2026 11:22:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Post</title>
+      <link>/2026/02/19/test-post/</link>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/2026/02/19/test-post/</guid>
+      <description>&lt;p&gt;This is a test post.&lt;/p&gt;&#xA;&lt;h2 id=&#34;r-code-example&#34;&gt;R Code Example&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Simple test&#xD;&#xA;x &amp;lt;- 1:10&#xD;&#xA;mean(x)&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;pre&gt;&lt;code&gt;## [1] 5.5&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
     <item>
       <title>Interrater Reliability Part II</title>
       <link>/2026/02/18/choosing-irr/</link>
