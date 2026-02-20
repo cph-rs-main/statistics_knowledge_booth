@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+public/            # Generated HTML (add to .gitignore)
+resources/         # Hugo image processing cache
+*_cache/           # Knitr cache folders
