@@ -2,6 +2,7 @@
 date: 2026-02-20T09:40:00-05:00
 title: "Interrater Reliability Part II"
 author: "Sebastian Cheong"
+slug: choosing-irr
 categories: ["R"]
 tags: ["interrater", "reliability", "R code"]
 ---
