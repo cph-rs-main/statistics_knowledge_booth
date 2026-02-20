@@ -1,7 +1,7 @@
 baseurl = "/statistics_knowledge_booth/"
 languageCode = "en-US"
-title = "A Hugo website"
-theme = "hugo-lithium"
+title = "Community Psychology Hub's Statistics Knowledge Booth"
+theme = "hugo-theme-m10c"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
 [permalinks]
